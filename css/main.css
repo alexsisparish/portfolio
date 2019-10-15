@@ -1,0 +1,177 @@
+/***** Base Styles *****/
+body {
+  font-family: 'Raleway', sans-serif;
+  background: black;
+  color: white;
+}
+
+
+#work {
+  height: 800px;
+  margin-left: 200px;
+}
+
+#about {
+  height: 500px;
+  text-align: center;
+}
+
+#contact {
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/***** Grid *****/
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 650px;
+  background: url('../img/bulbs.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#workh {
+  background: none;
+  height: 50px;
+}
+
+header h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 15px;
+  color: white;
+}
+
+
+nav {
+  float: right;
+  text-align: right;
+  padding-top: 1px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-left: 50px;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
+
+nav ul li a:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  font-size: 19px;
+}
+
+/**** About Me Section ****/
+.about-arrow {
+  margin-top: 18px;
+}
+
+section p {
+  width: 1100px;
+  clear: both;
+  font-size: 62px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150px;
+}
+
+#simple {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#space {
+  word-spacing: 20px;
+}
+
+
+
+/***** Work Section *****/
+
+.work-arrow {
+  margin-top: 150px;
+}
+
+
+.image {
+  border-radius: 5px;
+  max-width: 400px;
+  height: auto;
+  margin-left: auto;
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
+
+.image:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+#jubilee {
+  margin-top: 158px;
+}
+
+
+/**** Contact Section ****/
+
+#contact a {
+  text-decoration: none;
+  font-variant: small-caps;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 26px;
+}
+
+#contact-info {
+  font-size: 30px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 8px;
+}
+
+
+#open-sign {
+  margin-left: 200px;
+
+}
+
+.icons {
+  font-size: 10px;
+  color: white;
+}
+
+main p a {
+  color: white;
+}
